@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("webpack1"),function(){const e=document.querySelector("#content");e.classList.add("mainContainer");const t=document.createElement("div");e.appendChild(t),t.classList.add("largeborder");const d=document.createElement("div");e.appendChild(d),d.classList.add("largeborder"),d.classList.add("bottomborder")}()})();

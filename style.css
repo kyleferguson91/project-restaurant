@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    height: 100vh;
+    background-image: url(../src/pexels-monicore-1087902.jpg);
+    background-size: cover;
+  
+}
+
+.largeborder {
+    border-bottom: 2px solid red;
+    height: .1vh;
+    align-self: flex-end;
+    background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainContainer {
+        
+       background-size:100vw 100vh;
+
+        background-repeat: no-repeat;
+      
+    }
+  }
