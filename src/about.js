@@ -1,6 +1,8 @@
 export function aboutMaker() {
     const about = document.createElement('div')
+
     about.classList.add('aboutmenu')
+    about.classList.add('mainabout')
     const innerabout = document.createElement('div')
     about.appendChild(innerabout)
 
@@ -9,6 +11,7 @@ export function aboutMaker() {
     homeTitle.textContent = "The Picklery and The Butcher"
     homeTitle.classList.add('hometext')
     homeTitle.classList.add('homemenutext')
+
     innerabout.appendChild(homeTitle)
 
     

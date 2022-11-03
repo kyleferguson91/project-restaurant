@@ -2,6 +2,7 @@ export function menuMaker() {
     const menu = document.createElement('div')
     menu.classList.add('Menu')
     menu.classList.add('outermenu')
+    menu.classList.add('mainmenu')
     const innermenu = document.createElement('div')
     menu.appendChild(innermenu)
     innermenu.classList.add('innermenu')

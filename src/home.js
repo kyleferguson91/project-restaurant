@@ -3,6 +3,7 @@ import { menuMaker } from "./menu"
 export function homeMaker() {
     const home = document.createElement('div')
     home.classList.add('Home')
+    home.classList.add('mainhome')
     const homebox = document.createElement('div')
     homebox.classList.add('homebox')
     home.appendChild(homebox)
