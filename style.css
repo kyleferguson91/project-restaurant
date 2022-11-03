@@ -204,11 +204,18 @@ height: 100%;
 }
 
 .aboutmenu {
-
-    width: 50%;
+   
+    width: 60%;
+    margin: auto;
   
 
  
+}
+
+.aboutflex {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .details {
