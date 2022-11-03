@@ -1,16 +1,24 @@
+import {heads} from './header.js'
+import {foot} from './footer.js'
+import {cont} from './content.js'
+import {border} from './borders.js'
 export function pageLoad() {
 
 const mainLayout = document.querySelector('#content')
 mainLayout.classList.add('mainContainer')
 
-const newDiv = document.createElement('div')
-mainLayout.appendChild(newDiv)
-newDiv.classList.add('largeborder')
 
-const newDiv2 = document.createElement('div')
-mainLayout.appendChild(newDiv2)
-newDiv2.classList.add('largeborder')
-newDiv2.classList.add('bottomborder')
+mainLayout.appendChild(heads())
+mainLayout.appendChild(border())
+
+mainLayout.appendChild(cont())
+mainLayout.appendChild(border())
+mainLayout.appendChild(foot())
+
+
+
+
+
 
 
 }
