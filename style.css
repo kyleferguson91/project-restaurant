@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'welcomesummer'; 
-    src: url('../src/Welcome\ Summer.ttf'); 
+    src: url('./src/Welcome\ Summer.ttf'); 
  
 }
 
 @font-face {
     font-family: 'hotgrill'; 
-    src: url('../src/HOT\ GRILL\ demo.ttf'); 
+    src: url('./src/HOT\ GRILL\ demo.ttf'); 
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto 8fr auto 1fr;
     height: 100vh;
-    background-image: url(../src/pexels-lukas-349608\ 40.png);
+    background-image: url(./src/pexels-lukas-349608\ 40.png);
     background-size: cover;
  
 }
